@@ -1,0 +1,277 @@
+/* ========================================================== */
+/* 				  		      Home                         */
+/* ========================================================== */
+
+/* ----- 1. Home General ----- */
+.libre{	
+	padding-top: 8em;
+}
+.img{
+	border-radius: 50% !important;
+}
+.tittle_Eventos{
+	margin-bottom:1.6em;
+	margin-top: 1.6em;
+	color: gray;
+	font-size:50px;
+	line-height:50px;
+	font-weight:800;
+	text-align: center;
+}
+
+.espacio-abajo{
+	margin-bottom:4em; 
+}
+.fondo{
+	width:100%;
+	z-index:1;
+	background-image: url(../img/ice-cream5.jpg);
+	background-position: center top;
+        background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-size: cover;
+	max-height: 500px;
+}
+
+.home_box{
+	width:100%;
+	max-width:1140px;
+	margin:0 auto;
+	padding:0 0 180px 0;
+	text-align:center;
+}
+
+.home_social_info{
+	width: 100%;
+	max-width:1140px;
+	margin:0 auto;
+	padding:40px 0 170px 0;
+	height:60px;
+}
+
+h2.home_title{
+	margin-bottom:30px;
+	margin-top: 0;
+	color: white;
+	font-size:50px;
+	line-height:50px;
+	font-weight:400;
+	/*background-color: rgba(0, 0, 0, 0.2);*/
+}
+
+h2.home_title span{
+	font-weight:600;
+}
+
+h3.home_subtitle{
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-weight: 400;
+	text-transform: none;
+	margin-bottom: 30px;
+
+
+}
+
+/* ----- 4. Newsletter ----- */
+.newsletter_form_wrapper{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+}
+
+.newsletter_form_box{
+	margin:0 auto;
+	max-width:565px;
+	padding: 20px 15px 20px 20px;
+	background-color:rgb(0, 0, 0);
+	background-color:rgba(0, 0, 0, 0.4);
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px;
+}
+
+#newsletter-form #email_newsletter {
+	width:90%;
+	max-width:380px; 
+	height:44px;
+    padding:0 10px;
+	border: 1px solid #fff;
+	background-color: #fff;
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px;
+	color:#757575;  
+    font-size:14px;
+	margin:0 10px 0 0;
+}
+
+#newsletter-form #submit-button-newsletter {
+    width: 140px;
+	height:46px;
+	background-color: #303030;
+	border: 1px solid #FFFFFF;
+    color:#fff;  
+    display: inline;
+	margin:0 5px 0 0;
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px;
+	font-size:14px;
+	font-weight:700;
+	font-family: 'Open Sans', sans-serif;
+	vertical-align: top;
+	transition: background-color .25s ease-in-out;
+   -moz-transition: background-color .25s ease-in-out;
+   -webkit-transition: background-color .25s ease-in-out;
+}
+
+#newsletter-form #submit-button-newsletter:hover {
+	color:#454545;
+    background-color:gray;
+	border: 1px solid #fff;
+	transition: background-color .25s ease-in-out;
+   -moz-transition: background-color .25s ease-in-out;
+   -webkit-transition: background-color .25s ease-in-out;
+}
+
+input#email_newsletter::-webkit-input-placeholder { /* WebKit browsers */
+    color:#757575;
+}
+input#email_newsletter:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#757575;
+}
+input#email_newsletter::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#757575;
+}
+input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#757575;
+}
+
+p.newsletter_success_box{
+	font-size:18px;
+	color:black;
+	margin-bottom:15px;
+}
+
+/* ========================================================== */
+/* 						     768px                            */
+/* ========================================================== */
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* ========================================================== */
+/* 						     992px                            */
+/* ========================================================== */
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* ========================================================== */
+/* 						     1200px                           */
+/* ========================================================== */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+/* ========================================================== */
+/* 					  13. MOBILE DEVICES                      */
+/* ========================================================== */
+@media handheld, only screen and (max-width: 767px) {
+	
+.row {
+        width: 90%;
+        min-width: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+        width: auto;
+        float: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        clear:both;
+}
+
+#header_wrapper {
+}
+
+#header_wrapper #header {
+        position: relative;
+        width:90%;
+        padding:0 5%;
+        text-align:center;
+}
+
+#header_wrapper.shrink {
+        width:100%;
+        height:60px!important;
+        padding:0!important;
+}
+
+/* ----- logo ----- */
+a#logo {
+        margin:15px 0 0 0!important;
+}
+
+ul.social{
+        float:none;
+}
+
+a.button_blue, a.button_white{
+        font-size:10px;
+        padding:7px 14px;
+        margin:0 0 20px 0;
+}
+
+.section_box, .section_box.small_margins, .section_box.large_margins{
+        padding: 80px 0 70px 0;
+}
+
+.section_box.no_margins{
+        padding-top:80px;
+        padding-bottom:0;
+}
+
+#home{
+        margin:0 auto;
+        width:90%;
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+.home_box{
+        width:100%;
+        margin:0 auto;
+        padding-bottom: 90px;
+}
+
+.home_social_info{
+        padding-bottom:50px;
+}
+
+h2.home_title{
+        font-size:28px;
+        line-height:34px;
+}
+
+h3.home_subtitle{
+        font-size:16px;
+        line-height:22px;
+}

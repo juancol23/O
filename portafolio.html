@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Este es mi sitio web donde encontraras mis trabajos realizados y mi perfil mi nombre es juan valdemar colichon ramirez gracias por visitar ">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/portafolio.css">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/home.css">
+	<title>Mejores helados del mundo</title>
+</head>
+<body>
+
+		<nav class="se-gris">
+			<ul class="no-lista row text-center">
+				<li class="col-md-6 blanco inline-block"><a href="login.jsp" class="mediano">Atras</a></li>
+				<li class="col-md-6 blanco inline-block"><a href="login.jsp" class="mediano">Encuentrenos</a></li>			
+			</ul>
+		</nav>
+		<div class="container fondo">
+		        
+       
+	            <div class="home_box">
+	                <div class="libre"></div>	                
+	             
+	                 <h2 class="celeste">Comparte la Alegria <span class="pacifico verde">Valorando Tus Derechos</span> y <span class="blue bold"> Nosotros</span></h2>
+	                <h3 class="text-center blanco">Hola ${requestScope['user'].username} Somos un grupo de personas unidas que formamos una ONG que esta dedicada al apoyo legal a las personas totalmente gratuito en estos aspectos: 
+	                Nos sentimos con la capacidad de poder ayudar a todas las personas que podamos en este camino.</h3>                                                           
+	              
+	                <div class="newsletter_form_wrapper">           
+	                    <div class="newsletter_form_box">    
+	                        <form id="newsletter-form" class="newsletter_form" action="newsletter.php" method="post">
+	                        <input id="email_newsletter" type="email" name="nf_email" placeholder="Dejanos tu Email " />  
+	                           <input type="submit" value="ENVIAR " id="submit-button-newsletter" />
+	                        </form>   
+	                    </div>        
+	                </div>  
+	                      
+	            </div> 
+       		
+        </div><!-- Fin Home -->
+        <hr>
+		<section>
+			<div class="text-center mediano">
+				<h1 class="pacifico grande celeste">Portafolio</h1>
+				<p>Todos estos productos los puedes preparar</p>
+				<div class="col-md-3 col-sm-4 inline-block">
+					<article>
+						<h1 class="pacifico">Wolltan</h1>
+						<img src="img/ice-cream3.jpg" alt="" class="col-xs-4 col-md-5 quitar-float">
+						<p>
+							<strong>12USD</strong><br>
+							Lorem ipsum dolor sit amet,
+							 consectetur adipisicing elit.
+							  Molestiae atque illo praesentium
+							   id nam consectetur
+						</p>
+					</article>
+					<article>
+						<h1 class="pacifico">Icemdo</h1>
+						<img src="img/ice-cream4.jpg" alt="" class="col-xs-4 col-md-5 quitar-float">
+						<p>
+							<strong>8USD</strong><br>
+							Lorem ipsum dolor sit amet,
+							 consectetur adipisicing elit.
+							  Molestiae atque illo praesentium
+							   id nam consectetur
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-sm-4 inline-block vete-arriba"> 		<article>
+						<h1 class="pacifico">Principal</h1>
+						<img src="img/ice-cream2.jpg" alt="" class="col-xs-4 col-md-5 quitar-float">
+						<p>
+							<strong>8USD</strong><br>
+							Lorem ipsum dolor sit amet,
+							 consectetur adipisicing elit.
+							  Molestiae atque illo praesentium
+							   id nam consectetur
+						</p>
+					</article>
+				</div>
+				<div class="col-md-3 col-sm-4 inline-block">
+					<article>
+						<h1 class="pacifico">Wolltan</h1>
+						<img src="img/ice-cream3.jpg" alt="" class="col-xs-4 col-md-5 quitar-float">
+						<p>
+							<strong>12USD</strong><br>
+							Lorem ipsum dolor sit amet,
+							 consectetur adipisicing elit.
+							  Molestiae atque illo praesentium
+							   id nam consectetur
+						</p>
+					</article>
+					<article>
+						<h1 class="pacifico">Icemdo</h1>
+						<img src="img/ice-cream4.jpg" alt="" class="col-xs-4 col-md-5 quitar-float">
+						<p>
+							<strong>8USD</strong><br>
+							Lorem ipsum dolor sit amet,
+							 consectetur adipisicing elit.
+							  Molestiae atque illo praesentium
+							   id nam consectetur
+						</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+
+</body>
+</html>

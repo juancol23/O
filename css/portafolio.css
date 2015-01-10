@@ -1,0 +1,80 @@
+img{
+	max-width: 100%;
+}
+a{
+	margin-right: 1em;
+
+}
+.mas-mediano{
+	font-size: 1.2em;
+}
+.mediano{
+	font-size: .8em;
+}
+.mediano-1{
+	font-size: 1.8em;
+}
+.grande{
+	font-size: 4em;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 3em;
+}
+
+/*-----------TIPOGRAFIA---------*/
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.flat{
+	font-family: 'Nova Flat', cursive;
+}
+.flamecon{
+	font-family: 'Flamenco', cursive;
+}
+
+/*-----------COLORES---------*/
+.celeste{
+	color:#0981C8;
+}
+.rosa{
+	color: #D00C6D;
+}
+.verde{
+	color: #86CE40;
+}
+.blanco{
+	color: white;
+}
+.fondo-azul{
+	background: #2980B9;
+}
+
+/*-----------MAIN.HTML---------*/
+.se-gris{
+	background: rgb(218, 218, 218);
+}
+
+.no-lista {
+	margin: 0;
+	padding: 0;
+}
+.no-lista li{
+	list-style-type: none; 
+}
+.inline-block{
+	float:none;
+	display:inline-block;
+	margin-right: -4px;
+}
+.vete-arriba{
+	/*vertica align solo
+	sirve si esta en 
+	inline block*/
+	vertical-align: top;
+}
+.border-radius{
+	border-radius: 50%;
+}

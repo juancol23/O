@@ -1,0 +1,242 @@
+.section_wrapper{
+	width:100%;
+	background-color:#fff;
+}
+
+.section_wrapper.grey_bg{
+	background-color:#f4f4f4;
+}
+
+.section_box{
+	width:90%;
+	max-width:1140px;
+	margin:0 auto;
+	padding-top:120px;
+	padding-bottom:60px;
+	padding-left:5%;
+	padding-right:5%;
+	position:relative;
+}
+
+.section_box.small_margins{
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+.section_box.large_margins{
+	padding-top:120px;
+	padding-bottom:70px;
+}
+/* title_wrapper
+========================================================== */
+
+.title_wrapper {
+	margin:0 auto;
+	width:100%;
+	max-width:960px;
+	text-align:center;
+}
+
+.title {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #454545;
+	margin-bottom: 80px;
+	margin-top:0;
+	line-height: 20px;
+	text-align: center; 
+	z-index:900;
+}
+
+.title h2 {
+	padding: 10px 15px;	
+	margin-bottom: 0;
+	text-transform: uppercase;
+	line-height: 53px;
+	font-weight:700!important;
+}
+
+.title p {
+	position: absolute;
+	top: -12px;
+	right: 0;
+	left: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color:#353535;
+	font-size:12px;
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title p span {
+	padding: 0 12px;
+	background-color: #fff; 
+}
+
+.title_white {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-top:none;
+	margin-bottom: 80px;
+	margin-top:0;
+	color: #fff;
+	line-height: 20px;
+	text-align: center; 
+	z-index:900;
+}
+
+.title_white h2 {
+	padding: 10px 15px;	
+	margin-bottom: 0;
+	text-transform: uppercase;
+	line-height: 53px;
+	font-weight:700!important;
+	color:#fff;
+}
+
+.title_white p {
+	position: absolute;
+	top: -11px;
+	right: 0;
+	left: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color:#fff;
+	font-size:12px;
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+}
+	
+/* 
+    if you change the text inside the paragraph (subtitle) then you will have to change "width: 57px;" to the value needed in order to get a continuous border.
+    same rule applies if you change the title of the section.
+*/	
+.title_white p::after, .title_white p::before {
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	width: 38px;
+	height: 1px;
+	margin-top: -4px;
+}
+
+/*firefox only hack*/
+@-moz-document url-prefix() { 
+  .title_white p::after, .title_white p::before{
+	width: 39px;
+  }
+}
+
+.title_white p span {
+	padding: 0 12px;
+	background-color: transparent;
+}
+
+.grey_bg .title p span {
+	background-color: #f4f4f4; 
+}
+
+
+/* ========================================================== */
+/* 						    11. CONTACT                       */
+/* ========================================================== */
+
+#contact-form{
+	margin:0 auto;
+	width:100%;
+	max-width:600px;
+	text-align:center;
+	padding-bottom:40px;
+}
+
+input.contact-input{
+	width:93.40%;
+	height:36px;
+    padding:0 2%;
+	margin-right:2%;
+	margin-bottom:20px;
+	color: #252525;
+	border:none;
+	border-bottom: 2px solid #252525;
+        border-top: 2px solid black;
+	background-color:#fff;
+    font-size:14px;
+	float:left;
+}
+
+textarea{
+	height:120px;
+	margin:20px 0 30px 0;
+	width:93.40%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:10px;
+    padding-bottom:10px;
+	color: #252525;
+	border: 2px solid #252525;
+	border-top:none;
+	background-color:#fff;
+    font-size:14px;
+	float:left;
+}
+
+input.contact-submit{
+	font-family: 'Open Sans', sans-serif;
+	color: #252525;
+	border: 2px solid #252525;
+	background-color:#fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+	font-weight:700;
+    padding: 14px 30px;
+    position: relative;
+    text-transform: uppercase;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+input.contact-submit:hover{
+	color:#fff;
+	background-color:#252525;
+	border:2px solid #252525;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+input.white-input::-webkit-input-placeholder,
+textarea.white-input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#252525;
+	font-style: italic;
+}
+input.white-input:-moz-placeholder,
+textarea.white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#252525;
+	font-style: italic;
+}
+input.white-input::-moz-placeholder,
+textarea.white-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#252525;
+	font-style: italic;
+}
+input.white-input:-ms-input-placeholder,
+textarea.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#252525;
+	font-style: italic;
+}
+
+#contact-form input.contact-input:focus, #contact-form textarea.contact-commnent:focus {
+  color: #fff;
+  background-color:#252525;
+  outline: none;
+}
+
+p.contact_success_box{
+	font-size:18px;
+	font-style:italic;
+}
